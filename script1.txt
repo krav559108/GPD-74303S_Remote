@@ -1,0 +1,5 @@
+ch=1,out=1,u1=5.3,u2=none,i1=2,i2=none,step=none,tstep=none,pause=none;
+ch=1,out=0,u1=10,u2=none,i1=3,i2=none,step=none,tstep=none,pause=2;
+ch=1,out=1,u1=12,u2=none,i1=1,i2=none,step=none,tstep=none,pause=1;
+ch=none,out=none,u1=none,u2=none,i1=1,i2=none,step=none,tstep=none,pause=3;
+ch=1,out=1,u1=5,u2=30,i1=1,i2=none,step=2,tstep=1,pause=5;
