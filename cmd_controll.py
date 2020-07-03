@@ -56,8 +56,9 @@ file.seek(0)
 time.sleep(0.5)
 
 
-n_times = int(input('Количество повторений программы: '))
-print("Программа будет выполнена " + str(n_times) + " раз.")
+n_times = int(input('Сколько раз необходимо повторить цикл?: '))
+print("Количество повторов программы:" + str(n_times))
+
 
 for _ in repeat(None, n_times):
 
@@ -123,7 +124,7 @@ for _ in repeat(None, n_times):
             else:
                 i2_converted = float(i2)
 
-            if step == 'none':
+            if step == 'none': 
                 time.sleep(0)
             else:
                 step_converted = float(step)
@@ -195,4 +196,4 @@ for _ in repeat(None, n_times):
             # sys.exit(0)
             # ser.close()
             break
-        print('Программа выполнена успешно')
+    print('Программа выполнена успешно')

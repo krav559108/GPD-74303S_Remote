@@ -174,7 +174,7 @@ class Main_menu():
                                             i_start = ('VSET{ch}:{i}'.format(i = i1, ch = ch_1).upper().encode() + b'\n')
                                             i1 = i1 - step_value
                                             time.sleep(t)
-                                            ser.write(v_start)
+                                            ser.write(i_start)
 
                                         time.sleep(0.2)
                                         ser.write(c)
@@ -274,7 +274,7 @@ class Main_menu():
                                                 i_start = ('VSET{ch}:{i}'.format(i = i1, ch = ch_1).upper().encode() + b'\n')
                                                 i1 = i1 - step_value
                                                 time.sleep(t)
-                                                ser.write(v_start)
+                                                ser.write(i_start)
 
                                             time.sleep(0.2)
                                             ser.write(c)
@@ -335,7 +335,7 @@ while(True):
     restart = input("\nХотите ли вы перезапустить программу? [y/n] > ")
 
     if restart == "y":
-         print('\Перезапускаю\n')
+         print('Перезапускаю\n')
          ser.write(b'OUT0\n')
          time.sleep(0.2)
          ser.close()
