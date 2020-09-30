@@ -25,7 +25,7 @@ except:
 
     exit()
 
-class Main_menu():
+class Main_menu():  #class - просто метки в коде
     mode = "0"
     while mode == "0":
         print("\n1 - Ручной режим управления\n")
